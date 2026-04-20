@@ -1,0 +1,18 @@
+export const BRANCHES = [
+  'Ahmedabad — Navrangpura',
+  'Bengaluru — Indiranagar',
+  'Bengaluru — Koramangala',
+  'Bengaluru — MG Road',
+  'Chennai — Anna Nagar',
+  'Chennai — T. Nagar',
+  'Delhi — Connaught Place',
+  'Delhi — Lajpat Nagar',
+  'Hyderabad — Banjara Hills',
+  'Hyderabad — Hitech City',
+  'Jaipur — MI Road',
+  'Kolkata — Salt Lake',
+  'Mumbai — Andheri',
+  'Mumbai — Bandra',
+  'Mumbai — Nariman Point',
+  'Pune — Kothrud',
+];
