@@ -284,7 +284,7 @@ The seeder creates the following accounts automatically on first run:
 
 | Role     | Username      | Password       | Notes                               |
 |----------|---------------|----------------|------------------------------------ |
-| Admin    | `admin.nova`  | `Admin@123`    | Full admin access                   |
+| Admin    | `demo_admin`  | `Admin@123`    | Full admin access                   |
 | Customer | `NB222333`    | `Customer@123` | Pre-approved with a savings account |
 
 > **Security note:** Change these credentials immediately in any non-local environment. Update `DataSeeder.java` or remove the seeder entirely before deploying to production.

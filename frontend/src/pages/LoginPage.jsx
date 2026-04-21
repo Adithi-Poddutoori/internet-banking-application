@@ -82,7 +82,7 @@ export default function LoginPage() {
   const [otpError, setOtpError] = useState('');
 
   const loginHint = useMemo(
-    () => role === 'ADMIN' ? 'UserID: admin.nova / Password: Admin@123' : 'UserID: NB222333 / Password: Customer@123',
+    () => role === 'ADMIN' ? 'UserID: demo_admin / Password: Admin@123' : 'UserID: demo_alice / Password: Demo@123',
     [role]
   );
 
