@@ -361,7 +361,6 @@ The backend is then accessible at the following addresses:
 
 | Resource      | URL                                       |
 |---------------|-------------------------------------------|
-| REST API Base | `http://localhost:9098/api/v1/`           |
 | Swagger UI    | `http://localhost:9098/swagger-ui.html`   |
 
 **Demo data is seeded automatically.** On every startup, the `DemoDataSeeder` component inserts three pre-approved customer accounts along with associated transactions, bill mandates, expenses, and product requests — but only if the data does not already exist. It is safe to restart the application repeatedly without creating duplicate records.
@@ -423,7 +422,6 @@ The `DataSeeder` component creates a second, independent set of long-lived accou
 | Role     | Username      | Password       | Notes                           |
 |----------|---------------|----------------|---------------------------------|
 | Admin    | `admin.nova`  | `Admin@123`    | Permanent administrator account |
-| Customer | `NB222333`    | `Customer@123` | Pre-approved savings account    |
 
 > **Security Notice:** The `DemoDataSeeder` and `DataSeeder` classes are intended strictly for local development. They must be disabled or removed before deploying to any non-local environment. These credentials must not be used in production.
 
