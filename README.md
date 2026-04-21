@@ -282,10 +282,10 @@ npm run preview   # optional: preview the production build locally
 
 The seeder creates the following accounts automatically on first run:
 
-| Role     | Username      | Password       | Notes                               |
-|----------|---------------|----------------|------------------------------------ |
-| Admin    | `demo_admin`  | `Admin@123`    | Full admin access                   |
-| Customer | `NB222333`    | `Customer@123` | Pre-approved with a savings account |
+| Role     | Username        | Password       | Notes                               |
+|----------|-----------------|----------------|------------------------------------ |
+| Admin    | `demo_admin`    | `Admin@123`    | Full admin access                   |
+| Customer | `demo_alice`    | `Demo@123`     | Pre-approved with a savings account |
 
 > **Security note:** Change these credentials immediately in any non-local environment. Update `DataSeeder.java` or remove the seeder entirely before deploying to production.
 
@@ -322,21 +322,6 @@ mvn test -DskipTests=false
 
 Test reports are written to `backend/target/surefire-reports/`.
 ```
-
-## Demo credentials
-
-### Admin
-- User ID: `admin.nova`
-- Password: `Admin@123`
-
-### Approved customer
-- User ID: `NB222333`
-- Password: `Customer@123`
-
-### Pending customer seeded in backend
-- User ID: `NB777888`
-- Password: `Pending@123`
-- Status: pending approval
 
 ## Notes
 
