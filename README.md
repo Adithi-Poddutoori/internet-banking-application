@@ -415,13 +415,6 @@ All accounts listed below are seeded automatically on the first backend startup.
 | Bob Mehta     | `demo_bob`    | `Demo@123` | Rs. 75,000       | Pre-approved |
 | Carol Nair    | `demo_carol`  | `Demo@123` | Rs. 2,40,000     | Pre-approved |
 
-### Permanent Accounts — DataSeeder
-
-The `DataSeeder` component creates a second, independent set of long-lived accounts:
-
-| Role     | Username      | Password       | Notes                           |
-|----------|---------------|----------------|---------------------------------|
-| Admin    | `admin.nova`  | `Admin@123`    | Permanent administrator account |
 
 > **Security Notice:** The `DemoDataSeeder` and `DataSeeder` classes are intended strictly for local development. They must be disabled or removed before deploying to any non-local environment. These credentials must not be used in production.
 
@@ -591,16 +584,10 @@ Authenticating in Swagger UI:
 - A simulated credit score is displayed with contributing factor breakdowns.
 - Score bands — Excellent, Good, Fair, and Poor — are displayed with contextual improvement recommendations.
 
-### Notifications and Broadcasts
+### Notifications
 
 - Customers receive in-app notifications for suspicious transactions, reward credits, application status changes, large incoming credits, and bill activity.
 - Notifications are prioritised by severity (`high` or `info`) and grouped by type.
-- Administrators can create system-wide broadcast messages in four categories: info, warning, alert, and promotional. These are surfaced on the customer dashboard and notification feed.
-
-### Admin Follow-up Queue
-
-- A consolidated queue aggregates all items requiring administrative attention: open complaints, pending loan prepayments, insurance claims, locker requests, FD withdrawal requests, and loan foreclosure cases.
-- Items are colour-coded by SLA urgency — overdue, urgent, or pending — and sorted automatically by priority.
 
 ### Admin Staff Management
 
