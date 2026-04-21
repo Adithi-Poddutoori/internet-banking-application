@@ -14,7 +14,6 @@ spring:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.MySQLDialect
-        globally_quoted_identifiers: true
   mail:
     host: smtp.gmail.com
     port: 587
