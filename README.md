@@ -4,15 +4,8 @@
 NovaBanK — Internet Banking Suite
 ```
 
-# NovaBanK — Full-Stack Internet Banking Suite
+# NovaBank — Full-Stack Internet Banking Suite
 
-[![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=openjdk)](https://adoptium.net)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.4-brightgreen?style=for-the-badge&logo=springboot)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com)
-[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![JWT](https://img.shields.io/badge/JWT-Secured-black?style=for-the-badge&logo=jsonwebtokens)](https://jwt.io)
-[![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](http://localhost:9098/swagger-ui.html)
 
 A production-grade, full-stack internet banking platform that covers the complete customer lifecycle — from self-registration and administrative approval to fund transfers, bill payments, loan management, insurance, rewards, and more. The backend is secured with JWT-based stateless authentication and fully documented via Swagger/OpenAPI. Rich demo data is seeded automatically on first startup.
 
@@ -53,20 +46,20 @@ NovaBanK is a full-stack internet banking application built with Spring Boot 3 a
 +------------------------------------------------------------------+
 |                        CUSTOMER PORTAL                           |
 +--------------------+--------------------+------------------------+
-| Accounts           | Transactions        | Bills & Payments       |
-| Deposits           | Fund Transfers      | Loans & Insurance      |
-| Beneficiaries      | Expense Tracker     | Rewards & Redemptions  |
-| KYC & Profile      | Credit Score        | Notifications          |
-| Complaints         | Passbook            | Stopped Cheques        |
+| Accounts           | Transactions        | Bills & Payments      |
+| Deposits           | Fund Transfers      | Loans & Insurance     |
+| Beneficiaries      | Expense Tracker     | Rewards & Redemptions |
+| KYC & Profile      | Credit Score        | Notifications         |
+| Complaints         | Passbook            | Stopped Cheques       |
 +--------------------+--------------------+------------------------+
 
 +------------------------------------------------------------------+
 |                          ADMIN PORTAL                            |
 +--------------------+--------------------+------------------------+
-| Approvals          | Customer Management | Reports & Analytics    |
-| Loan Management    | Account Oversight   | System Broadcasts      |
-| Staff Management   | Transaction Search  | Follow-up Queue        |
-| Locker Requests    | Insurance Claims    | Settings               |
+| Approvals          | Customer Management | Reports & Analytics   |
+| Loan Management    | Account Oversight   | System Broadcasts     |
+| Staff Management   | Transaction Search  | Follow-up Queue       |
+| Locker Requests    | Insurance Claims    | Settings              |
 +--------------------+--------------------+------------------------+
 ```
 
@@ -96,7 +89,7 @@ The application follows a standard three-tier architecture. The React SPA and th
 |  +------------------+--------------------+  |
 |                     |                       |
 |  +------------------v--------------------+  |
-|  |         REST Controllers (20)          |  |
+|  |         REST Controllers (20)         |  |
 |  +------------------+--------------------+  |
 |                     |                       |
 |  +------------------v--------------------+  |
